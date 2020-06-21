@@ -18,6 +18,10 @@
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
         <version>9.4.5.v20170502</version>
+        <configuration>
+          <stopKey>stop</stopKey>
+          <stopPort>8081</stopPort>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
